@@ -22,21 +22,11 @@
 </head>
 
 <body>
+    <div>WI Frog and Toad Survey 2026</div>
     <div id="map"></div>
     <div><a href="https://www.flaticon.com/free-icons/frog" title="frog icons">Frog icons created by Fathema Khanom - Flaticon</a></div>
 </body>
 
-<script>
-
-    var map = L.map('map').setView([45.20198, -92.49990], 13);
-
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    }).addTo(map);
-
-    var marker = L.marker([45.122893, -92.707398]).addTo(map);
-    
-</script>
+<script src="sources/js/map.js"></script>
 
 </html>
